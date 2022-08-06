@@ -233,7 +233,7 @@ const ViewItems = () => {
                   bg={"red.400"}
                   color={"white"}
                   rounded={"100"}
-                  boxShadow={"0 5px 20px 0px rgb(72 187 120 / 43%)"}
+                  boxShadow={"0 5px 20px 0px rgb(255 0 0 / 43%)"}
                   _hover={{
                     bg: "red.500",
                   }}
