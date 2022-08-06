@@ -89,6 +89,10 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname + "/client/build/index.html"));
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
+
+app.listen(6000, () => {
+  console.log(`Server is running on port 5000`);
 });
