@@ -290,7 +290,7 @@ const ViewItems = () => {
                 textAlign={"center"}
                 paddingTop={"10px"}
               >
-                Add Item
+                Edit Item
               </Heading>
               <Box bg={"white"} boxShadow={"lg"} fill width={"100%"}>
                 <FormControl>
