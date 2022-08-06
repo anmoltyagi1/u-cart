@@ -16,10 +16,12 @@ const devConfig = `postgresql://${process.env.PG_USER}:${process.env.PG_PASSWORD
 // };
 
 const prodConfig = process.env.DATABASE_URL;
-
 const pool = new Pool({
   connectionString:
     process.env.NODE_ENV === "production" ? prodConfig : devConfig,
+  ssl: {
+    rejectUnauthorized: false,
+  },
 });
 
 module.exports = pool;
