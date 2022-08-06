@@ -338,7 +338,7 @@ const ViewItems = () => {
                     <Input
                       type="number"
                       onChange={(e) => setModalQuantity(e.target.value)}
-                      value={modalId}
+                      value={modalQuantity}
                       placeholder="Quantity"
                     />
                   </FormControl>
