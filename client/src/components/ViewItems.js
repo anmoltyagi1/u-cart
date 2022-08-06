@@ -181,6 +181,7 @@ const ViewItems = () => {
         className="container"
         // gridTemplateColumns="repeat(auto-fit, minmax(200px, 1fr))"
       >
+        <ToastContainer />
         {items.map((item) => (
           <Box className="item">
             <Stack

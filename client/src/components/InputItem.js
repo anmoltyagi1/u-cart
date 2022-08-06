@@ -149,7 +149,7 @@ const InputItem = () => {
                 }}
                 onClick={postItem}
               >
-                Sign up
+                Add
               </Button>
             </Stack>
             <Stack pt={6}></Stack>
